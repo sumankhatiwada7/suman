@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images.jpeg') fixed;
+    background-size: cover;
+    color: #495057;
+    line-height: 1.6;
+}
+header{
+    text-align: center;
+    padding: 2em 0;
+}
+
+header img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 47px;
+ 
+}
+
+h1,
+h2,
+h3 {
+    color: #343a40;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+p {
+    line-height: 1.6;
+    color: #495057;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.skills img {
+    width: 50px; /* Adjust the size as needed */
+    margin-right: 10px;
+}
+.contact-info,
+.about-me,
+.skills,
+.education,
+.projects,
+.work-experience{
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.contact-info::before,
+.about-me::before,
+.skills::before,
+.education::before 
+.work-experience::before
+.projects::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.contact-info::before {
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #007BFF transparent;
+}
+
+.about-me::before {
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #007BFF transparent;
+}
+
+.skills::before {
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #007BFF transparent;
+}
+
+.education::before {
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #007BFF transparent;
+}
+.projects::before{
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #007BFF transparent;
+}
+.work-experience::before{
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent #007BFF transparent;
+}
+.contact-info a img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+    margin: 0 10px;
+}
